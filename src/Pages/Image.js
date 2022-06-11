@@ -19,7 +19,7 @@ export const Image = () => {
     return (  
       <section>
         <div className="row" style={{paddingLeft:"15%",marginTop:"18px"}}>
-        {loading && <p style={{padding:"0 350px",marginTop:"160px"}}><img src={require('../image/progress.gif')} width={180} height={100}/></p>} 
+        {loading && <p style={{padding:"0 390px",marginTop:"200px"}}><img src={require('../image/progress.gif')} width={180} height={100}/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p>}
         {!!data && data.length > 0 ? data.map((product) => {
             return(
                 <div className="card" style={{width: "18rem",marginLeft:"2%"}}>

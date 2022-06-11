@@ -11,15 +11,10 @@ export const Home = () =>{
         
         <body className='row' style={{backgroundImage: `url(${background})`, width:'1370px', height:'600px', backgroundRepeat: 'no-repeat', fontFamily:"Poppins"}}>
         
-        <div style={{padding: "70px 90px", color: "white"}}>
-            <h3>Encuentranos en nuestra ubicación</h3>
-        <iframe src="https://embed.waze.com/es/iframe?zoom=16&lat=12.141947&lon=-86.203418&ct=livemap" width="500" height="350" allowfullscreen></iframe>
-        </div>
-
-            <div  style={{padding:"140px 50px", color:"white", textAlign: 'center'}}>
+            <div  style={{padding:"140px 430px", color:"white", textAlign: 'center'}}>
             
                 <h2>BIENVENIDO A SUBLICOLOR</h2>
-                <h3>{user.nickname}</h3>
+                <h3>{user.name}</h3>
                 <br/>
                 <br/>
                 <h5>Guia de sublimación y productos que puedes usar</h5>

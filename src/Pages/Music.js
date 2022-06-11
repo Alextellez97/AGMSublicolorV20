@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react'
 import ReactAudioPlayer from 'react-audio-player';
 import spotify from '../image/spotify.jpg';
 import youtube from '../image/youtube.jpg';

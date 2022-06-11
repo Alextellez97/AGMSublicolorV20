@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react'
 import ReactPlayer from 'react-player';
 
 
@@ -7,9 +6,8 @@ export const Video = () => {
       <section>
         <div className="row" style={{marginTop:"89px"}}>
         <p className="row">
-                        
                         <p>
-                        <h6 style={{marginLeft:"40%"}}> Titulo:  Porta</h6>
+                        <h6 style={{paddingLeft:"260px"}}> Como sublimar camisas </h6>
                         <ReactPlayer url='https://www.youtube.com/embed/lDLjPrGMsds' 
                                     controls
                                     width={400}
@@ -17,45 +15,21 @@ export const Video = () => {
                                     style={{marginLeft:"40%"}}/>
                         </p>
                         <p>
-                        <h6  style={{marginLeft:"70%"}}> Titulo:  Porta</h6>
+                        <h6  style={{paddingLeft:"400px"}}>Como sublimar Tazas</h6>
                         <ReactPlayer url='https://www.youtube.com/embed/Nr2gYfzY9Es' 
                                     controls
                                     width={400}
                                     height={300}
-                                    style={{marginLeft:"70%"}}/>
+                                    style={{marginLeft:"60%"}}/> 
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
                         </p>
-                        <p>
-                        <h6  style={{marginLeft:"70%"}}> Titulo:  Porta</h6>
-                        <ReactPlayer url='https://www.youtube.com/embed/ZHMy1ioVt4o' 
-                                    controls
-                                    width={400}
-                                    height={300}
-                                    style={{marginLeft:"70%"}}/>
-                        </p>
-                        <p>
-                        <h6  style={{marginLeft:"70%"}}> Titulo:  Porta</h6>
-                        <ReactPlayer url='https://www.youtube.com/embed/vZ-u6X8nrvc' 
-                                    controls
-                                    width={400}
-                                    height={300}
-                                    style={{marginLeft:"70%"}}/>
-                        </p>
-                        <p>
-                        <h6  style={{marginLeft:"70%"}}> Titulo:  Porta</h6>
-                        <ReactPlayer url='https://www.youtube.com/embed/hkVON6yKWOc' 
-                                    controls
-                                    width={400}
-                                    height={300}
-                                    style={{marginLeft:"70%"}}/>
-                        </p>
-                        <p>
-                        <h6  style={{marginLeft:"70%"}}> Titulo:  Porta</h6>
-                        <ReactPlayer url='https://www.youtube.com/embed/FS4oVlG70Xk' 
-                                    controls
-                                    width={400}
-                                    height={300}
-                                    style={{marginLeft:"70%"}}/>
-                        </p>
+
                         </p>
         </div>
       </section>

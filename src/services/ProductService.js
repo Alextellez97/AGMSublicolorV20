@@ -16,7 +16,7 @@ class ProductService {
         return httpCommon.delete(`/products/${id}`);
     }
     getLimit(){
-        return httpCommon.get("/products?limit=3");
+        return httpCommon.get("/products?limit=12");
     }
 }
  export default new ProductService();
