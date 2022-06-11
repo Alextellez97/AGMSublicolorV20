@@ -11,7 +11,7 @@ export const Navbar = () => {
             <a className="navbar-brand" href="/">
                 <img src={logo} width="30" height="30" alt=""/>
             </a>
-                <Link className="navbar-brand" To="/">Video Tutorial</Link>
+                <Link className="navbar-brand" To="/">Sublicolor Nicaragua</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
